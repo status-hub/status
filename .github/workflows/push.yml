@@ -25,3 +25,5 @@ jobs:
 
       - name: status-hub/monitor
         uses: status-hub/monitor@1.0.0
+        with:
+           token: ${{ secrets.ST_TOKEN }}
